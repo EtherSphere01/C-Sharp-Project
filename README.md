@@ -11,7 +11,7 @@ For using this Project you need to change
  1-> Path of the images from the class CDashBoard.cs (4 paths).
  2-> Path of the invoice from Payment.cs (4 Paths).
  3-> Database Connection String from App.config.
- 4-> Product Table Database link Column.
+ 4-> Product Table In Database (link Column).
 
  Thank you 
 
