@@ -166,7 +166,7 @@ namespace Project
 
 
             string Uname = Login.loginusername;
-            string path = "D://OneDrive - American International University-Bangladesh//Lecture PDF//4th Semester//OOP 2//Project//C# Project//C# Project//Project//Project//Invoice" + Uname + Product.sendinvoice+".pdf";
+            string path = "D://OneDrive - American International University-Bangladesh//Lecture PDF//4th Semester//OOP 2//Project//Project//Invoice" + Uname + Product.sendinvoice+".pdf";
             //string imagepath = @"D://OneDrive - American International University-Bangladesh//C#//Project//Images//signup-icon.png";
             //iText.Layout.Element.Image logo = new iText.Layout.Element.Image(ImageDataFactory.Create(imagepath));
             //logo.SetHeight(40);
@@ -360,7 +360,7 @@ namespace Project
             message.From = new MailAddress(from);
             message.Body = messageBody;
             message.Subject = "Order Confirmation ";
-            string filename = "D://OneDrive - American International University-Bangladesh//Lecture PDF//4th Semester//OOP 2//Project//C# Project//C# Project//Project//Project//Invoice" + Login.loginusername + Product.sendinvoice+".pdf";
+            string filename = "D://OneDrive - American International University-Bangladesh//Lecture PDF//4th Semester//OOP 2//Project//Project//Invoice" + Login.loginusername + Product.sendinvoice+".pdf";
 
             //string filename = "C:\\Users\\Admin\\Downloads\\BDRAILWAY_TICKET202303230802249487737.pdf";
             string fname = Path.GetFileName(filename);
@@ -399,7 +399,7 @@ namespace Project
             message.From = new MailAddress(from);
             message.Body = messageBody;
             message.Subject = "Order Confirmation ";
-            string filename = "D:\\OneDrive - American International University-Bangladesh\\Lecture PDF\\4th Semester\\OOP 2\\Project\\C# Project\\C# Project\\Project\\Project\\Invoice" + Login.loginusername + ".pdf";
+            string filename = "D:\\OneDrive - American International University-Bangladesh\\Lecture PDF\\4th Semester\\OOP 2\\Project\\Project\\Invoice" + Login.loginusername + ".pdf";
 
             //string filename = "C:\\Users\\Admin\\Downloads\\BDRAILWAY_TICKET202303230802249487737.pdf";
             string fname = Path.GetFileName(filename);
@@ -539,7 +539,7 @@ namespace Project
                     try
                     {
                         string Uname = Login.loginusername;
-                        string path = "D:\\OneDrive - American International University-Bangladesh\\Lecture PDF\\4th Semester\\OOP 2\\Project\\C# Project\\C# Project\\Project\\Project\\Invoice" + Uname + ".pdf";
+                        string path = "D:\\OneDrive - American International University-Bangladesh\\Lecture PDF\\4th Semester\\OOP 2\\Project\\Project\\Invoice" + Uname + ".pdf";
                         //string imagepath = @"D://OneDrive - American International University-Bangladesh//C#//Project//Images//signup-icon.png";
                         //iText.Layout.Element.Image logo = new iText.Layout.Element.Image(ImageDataFactory.Create(imagepath));
                         //logo.SetHeight(40);
